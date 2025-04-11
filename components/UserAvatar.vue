@@ -19,7 +19,7 @@ async function handleLogout() {
 <template>
   <DropdownMenu>
     <DropdownMenuTrigger>
-      <Avatar>
+      <Avatar class="cursor-pointer">
         <AvatarImage :src="session.data?.user?.image || ''" />
         <AvatarFallback>CN</AvatarFallback>
       </Avatar>
